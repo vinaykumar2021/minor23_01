@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#header
+{
+    background-color:gray;
+    background-image: linear-gradient(120deg,red,white,green);
+    width:100%;
+    color:red;
+    text-align: center;
+    padding:15px;
+    top:0;
+    left:0;
+    font-size: 35px;
+    position:fixed;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px black;
+    border: 1px solid black;
+    margin:2px;
+    text-shadow:3px 3px white;
+}
+
+#a{grid-area: a1;}
+#b{grid-area: b1;}
+#c{grid-area: c1;}
+#d{grid-area: d1;}
+#e{grid-area: e1;}
+#f{grid-area: f1;}
+#g{grid-area: g1;}
+#h{grid-area: h1;}
+#i{grid-area: i1;}
+#j{grid-area: j1;}
+#k{grid-area: k1;}
+#l{grid-area: l1;}
+#m{grid-area: m1;}
+#n{grid-area: n1;}
+#o{grid-area: o1;}
+#p{grid-area: p1;}
+#q{grid-area: q1;}
+#r{grid-area: r1;}
+#s{grid-area: s1;}
+#t{grid-area: t1;}
+
+#maindiv{
+    display:grid;
+    grid-template-areas:   
+    'a1 a1 b1 b1'    
+    'c1 c1 d1 d1' 
+    'e1 e1 f1 f1'
+    'g1 g1 h1 h1'    
+    'i1 i1 j1 j1'
+    'k1 k1 l1 l1'
+    'm1 m1 n1 n1'
+    'o1 o1 p1 p1'
+    'q1 q1 r1 r1'
+    's1 s1 t1 t1';
+    flex-direction:row;
+    color:rgb(65, 57, 171);
+    text-align: center;
+    background-color: pink;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 20px;
+    margin-top:80px;
+    margin-bottom: 80px;
+    position:static;
+}
+#maindiv >div{
+    background-color:white;
+    grid-gap:20px;
+    padding:20px;
+    margin:5px;
+}
+
+#footer
+{
+    background-color:gray;
+    background-image: linear-gradient(120deg,rgb(154, 154, 219),rgb(213, 91, 91),rgb(116, 210, 116));
+    width:100%;
+    color:white;
+    text-align: center;
+    padding:15px;
+    bottom:0;
+    font-size: 35px;
+    position:fixed;
+    border: 1px solid black;
+    margin:2px;
+    left: 0;
+    text-shadow:1px 1px black;
+}
